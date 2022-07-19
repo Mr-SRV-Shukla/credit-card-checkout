@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(119, 126, 146);
+}
+
+.main {
+    height: 20vh;
+    width: 62vw;
+    margin: 180px auto;
+   
+}
+
+.image {
+    height: 35vh;
+    width: 30vw;
+    background-image: url(cardpick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    border-radius: 13px;
+}
+
+.form {
+    height: 35vh;
+    width: 30vw;
+    background: rgba(12, 13, 64, 0.86);
+    float: right;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+#name {
+    padding: 3px 77px 0px 3px;
+    margin: 29px 0px 20px 58px;
+    border-radius: 5px;
+}
+
+#CardNo {
+    padding: 3px 76px 0px 3px;
+    margin: 0px 9px 0px 38px;
+    border-radius: 5px;
+}
+
+#date {
+    padding: 3px 0px 0px 0px;
+    margin: 20px 0px 0px 53px;
+    border-radius: 5px;
+}
+
+#cvv {
+    padding: 3px 0px 0px 0px;
+    margin: 20px 17px 0px 128px;
+    border-radius: 5px;
+}
+
+.margin {
+    margin-left: 19px;
+}
